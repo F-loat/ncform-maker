@@ -70,4 +70,8 @@ html, body {
 #app {
   height: 100vh;
 }
+
+.inner-item .el-button {
+  display: none;
+}
 </style>
