@@ -13,14 +13,6 @@
           :schema="schema"
           @edit="changeSchema"
         />
-        <NcmakerFormTemplate
-          @changeSchema="changeSchema"
-        />
-        <NcmakerFormSave
-          :schema="schema"
-          type="template"
-          icon="el-icon-document-add"
-        />
         <NcmakerFormSave
           :schema="schema"
           type="form"
