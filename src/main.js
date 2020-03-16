@@ -9,16 +9,17 @@ import ncformStdComps from '@f-loat/ncform-theme-elementui'
 import { controlComps, layoutComps, businessComps } from '@f-loat/ncform-comps'
 
 import App from './App.vue'
+import lang from './locale'
 
 Vue.use(Element)
 Vue.use(VueI18n)
 Vue.use(vueNcform, {
   extComponents: Object.assign(ncformStdComps, layoutComps, controlComps, businessComps),
-  lang: 'zh-cn'
+  lang
 })
 Vue.config.productionTip = false
 
-const i18n = new VueI18n({ locale: 'zh-CN', messages: NcmakerMessages })
+const i18n = new VueI18n({ locale: lang, messages: NcmakerMessages })
 
 new Vue({
   i18n,
