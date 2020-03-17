@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ncform-maker/precache-manifest.17721bbc3e2623d28934d0451a3e7c12.js"
+  "/ncform-maker/precache-manifest.bbd792f24ffb1adf6b777f08eb04d6a5.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ncform-maker"});
