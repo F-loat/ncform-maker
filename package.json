@@ -2,6 +2,11 @@
   "name": "ncform-maker",
   "version": "0.1.0",
   "private": true,
+  "author": "F-loat <chaimaoyuan@foxmail.com>",
+  "contributors": [
+    "w-xuefeng <xuefeng@kcalb.wang>",
+    "付艺菲 <760397447@qq.com>"
+  ],
   "homepage": "https://f-loat.github.io/ncform-maker",
   "scripts": {
     "serve": "vue-cli-service serve",
